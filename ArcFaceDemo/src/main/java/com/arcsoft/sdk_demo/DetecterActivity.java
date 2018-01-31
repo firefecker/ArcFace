@@ -89,7 +89,6 @@ public class DetecterActivity extends Activity implements OnCameraListener, View
 	};
 
 	class FRAbsLoop extends AbsLoop {
-
 		AFR_FSDKVersion version = new AFR_FSDKVersion();
 		AFR_FSDKEngine engine = new AFR_FSDKEngine();
 		AFR_FSDKFace result = new AFR_FSDKFace();
