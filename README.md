@@ -3,7 +3,7 @@ Free SDK demo
 
 >工程如何使用？
  1. 下载代码:    
-    git clone https://github.com/asdfqwrasdf/ArcFaceDemo.git 或者直接下载压缩包
+    git clone https://github.com/firefecker/ArcFace.git 或者直接下载压缩包
  
  2. 前往[官网](http://www.arcsoft.com.cn/ai/arcface.html)申请appid和sdkkey。    
     修改 ArcFaceDemo-master\src\main\java\com\arcsoft\sdk_demo\FaceDB.java 下面的对应的值:    
@@ -52,6 +52,5 @@ Free SDK demo
  一般android studio会自动从jcenter 下载对应的aar包，如果没有自动下载，请自行检查是否网络问题，或者删掉build等编译目录，重新运行gradle.
     
 4. 还有其他问题.    
- 直接提交[issue](https://github.com/asdfqwrasdf/ArcFaceDemo/issues)     
- 我们会尽快解决    
+ 直接提交 [issue](https://github.com/firefecker/ArcFace/issues)     我们会尽快解决
 	
