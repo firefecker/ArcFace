@@ -14,7 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by gqj3375 on 2017/2/24.
+ *
+ * @author gqj3375
+ * @date 2017/2/24
  */
 
 public class PermissionAcitivity extends Activity {

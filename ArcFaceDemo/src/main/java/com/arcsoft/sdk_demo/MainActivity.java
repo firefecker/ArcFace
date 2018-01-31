@@ -111,7 +111,7 @@ public class MainActivity extends Activity implements OnClickListener {
 									case 1:
 										Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
 										ContentValues values = new ContentValues(1);
-										values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
+										values.put(MediaStore.Images.Media.MIME_TYPE, "image/*");
 										Uri uri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
 										((Application)(MainActivity.this.getApplicationContext())).setCaptureImage(uri);
 										intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
